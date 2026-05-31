@@ -1,72 +1,9 @@
 ---
 name: computer-use
 description: Orchestrate desktop computer control — take screenshots, click/type/scroll, manage windows and apps, read accessibility trees, fill forms, run scripts (AppleScript/JXA/PowerShell), manage clipboard, and navigate UI elements. Use when automating desktop tasks, clicking buttons, filling forms, reading screen content, controlling apps, or running desktop scripts.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires computer-use-mcp server. macOS (AppleScript/JXA) and Windows (PowerShell). Accessibility permissions required.
-allowed-tools:
-  - screenshot
-  - zoom
-  - doctor
-  - policy_status
-  - agent_pointer
-  - openai_computer
-  - left_click
-  - right_click
-  - middle_click
-  - double_click
-  - triple_click
-  - mouse_move
-  - left_click_drag
-  - left_mouse_down
-  - left_mouse_up
-  - scroll
-  - cursor_position
-  - type
-  - key
-  - hold_key
-  - read_clipboard
-  - write_clipboard
-  - open_application
-  - list_running_apps
-  - hide_app
-  - unhide_app
-  - get_window
-  - get_cursor_window
-  - list_windows
-  - get_frontmost_app
-  - activate_app
-  - activate_window
-  - get_display_size
-  - list_displays
-  - wait
-  - get_ui_tree
-  - get_focused_element
-  - find_element
-  - click_element
-  - set_value
-  - press_button
-  - list_menu_bar
-  - select_menu_item
-  - fill_form
-  - run_script
-  - get_app_dictionary
-  - get_tool_guide
-  - get_app_capabilities
-  - list_spaces
-  - get_active_space
-tags:
-  - devops
-  - desktop
-  - automation
-  - gui
-  - accessibility
-  - scripting
-  - computer-use
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [screenshot, zoom, doctor, policy_status, agent_pointer, openai_computer, left_click, right_click, middle_click, double_click, triple_click, mouse_move, left_click_drag, left_mouse_down, left_mouse_up, scroll, cursor_position, type, key, hold_key, read_clipboard, write_clipboard, open_application, list_running_apps, hide_app, unhide_app, get_window, get_cursor_window, list_windows, get_frontmost_app, activate_app, activate_window, get_display_size, list_displays, wait, get_ui_tree, get_focused_element, find_element, click_element, set_value, press_button, list_menu_bar, select_menu_item, fill_form, run_script, get_app_dictionary, get_tool_guide, get_app_capabilities, list_spaces, get_active_space]
 metadata:
   author: Zavora AI
   mcp-server: computer-use-mcp
